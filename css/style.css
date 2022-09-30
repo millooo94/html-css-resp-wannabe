@@ -136,8 +136,8 @@ img {
  @media screen and (max-width: 768px) {
 
     .container {
-        /* width: 100vw; */
-        width: 100%;
+        width: 100vw;
+        /* width: 100%; */
     }    
  }
 
@@ -149,8 +149,8 @@ img {
  @media screen and (max-width: 480px) {
 
     .container {
-        /* width: 100vw; */
-        width: 100%;
+        width: 100vw;
+        /* width: 100%; */
     }
 
     .lessons .row {
@@ -188,9 +188,13 @@ img {
 
  /* BONUS */
 
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) and (max-width: 1160px) {
+
+
+
+
     .container {
-        /* width: 100vw; */
+
         width: 100%;
     }
  }
